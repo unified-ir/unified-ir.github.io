@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.5.2">
 <title data-rh="true">Unified IR | Unified IR</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://unified-ir.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://unified-ir.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://unified-ir.github.io/docs/intro"><meta data-rh="true" property="og:locale" content="zh"><meta data-rh="true" name="docusaurus_locale" content="zh"><meta data-rh="true" name="docsearch:language" content="zh"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Unified IR | Unified IR"><meta data-rh="true" name="description" content="About"><meta data-rh="true" property="og:description" content="About"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://unified-ir.github.io/docs/intro"><link data-rh="true" rel="alternate" href="https://unified-ir.github.io/docs/intro" hreflang="zh"><link data-rh="true" rel="alternate" href="https://unified-ir.github.io/docs/intro" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Unified IR RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Unified IR Atom Feed"><link rel="stylesheet" href="/assets/css/styles.8a590156.css">
-<script src="/assets/js/runtime~main.fdda95c0.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.624202c2.js" defer="defer"></script>
 <script src="/assets/js/main.c00ce7ad.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -22,9 +22,9 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="supported-platforms">Supported Platforms<a href="#supported-platforms" class="hash-link" aria-label="Supported Platforms的直接链接" title="Supported Platforms的直接链接">​</a></h2>
 <p>目前，<strong>Unified IR</strong> 已经支持了NVIDIA、寒武纪和华为昇腾平台，我们通过深度学习编译器 <strong>IntelliGen</strong> 对张量程序的中间表示进行统一的优化，然后为不同的硬件平台实现了从 <strong>Unified IR</strong> 到对应平台代码生成后端，在包括Llama、GPT2的主流大模型中都取得了明显的加速。这样的结果表明，<strong>Unified IR</strong> 不仅可以为上层的人工智能应用提供恰当的抽象，从而能挖掘出更多的优化机会，还可以充分描述底层不同硬件平台的特性，能获得跨平台的优异性能。</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="results-on-ascend-910b">Results On Ascend 910B<a href="#results-on-ascend-910b" class="hash-link" aria-label="Results On Ascend 910B的直接链接" title="Results On Ascend 910B的直接链接">​</a></h3>
-<p><img decoding="async" loading="lazy" src="https://github.com/deathwings602/Unified-IR/blob/main/doc/pic/end-to-end-time-b1.png" alt="Ascend 910B上的加速效果，batch size = 1" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Ascend 910B上的加速效果，batch size = 1" src="/assets/images/end-to-end-time-b1-22ffd6541117deb22b1163df43856a53.png" width="1929" height="1281" class="img_ev3q"></p>
 <p>(batch size = 1)</p>
-<p><img decoding="async" loading="lazy" src="https://github.com/deathwings602/Unified-IR/blob/main/doc/pic/end-to-end-time.png" alt="Ascend 910B上的加速效果，batch size = 4" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Ascend 910B上的加速效果，batch size = 4" src="/assets/images/end-to-end-time-4a344005704e9270efd6d63f8089e804.png" width="1929" height="1281" class="img_ev3q"></p>
 <p>(batch size = 4)</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting Started<a href="#getting-started" class="hash-link" aria-label="Getting Started的直接链接" title="Getting Started的直接链接">​</a></h2>
 <p>在这里查看有关 <strong>Unified IR</strong> 的定义：<a href="https://github.com/deathwings602/Unified-IR/blob/main/doc/1-unified-ir-defs.md" target="_blank" rel="noopener noreferrer">Introduction To Unified IR</a></p>
